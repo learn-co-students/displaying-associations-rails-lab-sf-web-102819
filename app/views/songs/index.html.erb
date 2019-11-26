@@ -1,0 +1,6 @@
+<% @songs.each do |song| %>
+    <h2><%= link_to song do %>
+    <%= song.artist.name if song.artist %> -
+    <%= song.title %>
+    <% end %></h2>
+<% end %>
