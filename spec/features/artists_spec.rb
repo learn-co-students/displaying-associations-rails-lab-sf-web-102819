@@ -32,3 +32,4 @@ describe "artists", type:  :feature do
     expect(page).to have_content("2 songs")
   end
 end
+ 
